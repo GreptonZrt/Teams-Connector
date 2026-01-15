@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "64b3a3a2-548a-43b1-9d83-d989ac60e4c6",
+  "developer": {
+    "name": "Fresh Team",
+    "websiteUrl": "https://fresh-teams-bot-func.azurewebsites.net",
+    "privacyUrl": "https://fresh-teams-bot-func.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://fresh-teams-bot-func.azurewebsites.net/terms"
+  },
+  "name": {
+    "short": "Fresh Bot",
+    "full": "Fresh Teams Bot"
+  },
+  "description": {
+    "short": "Fresh Teams Bot",
+    "full": "Fresh Teams Bot for AI-powered assistance"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#60A18E",
+  "staticTabs": [
+    {
+      "entityId": "conversations",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "19c6dc8f-ba5d-4f10-8df2-af473d5515f0",
+      "scopes": [
+        "team",
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "fresh-teams-bot-func.azurewebsites.net"
+  ]
+}

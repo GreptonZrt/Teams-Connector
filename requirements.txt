@@ -1,0 +1,10 @@
+# Azure Functions
+azure-functions
+
+# HTTP requests (for Llama3 API calls)
+requests==2.31.0
+
+# Azure OpenAI
+openai>=1.0.0
+
+
