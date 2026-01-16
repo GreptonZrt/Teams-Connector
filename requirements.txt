@@ -7,4 +7,6 @@ requests==2.31.0
 # Azure OpenAI
 openai>=1.0.0
 
+# Flask for simple server (alternative to Azure Functions CLI)
+flask>=2.3.0
 
